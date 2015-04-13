@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It narrowed down the number of lines that had to be looked over to find the
+	problem. This enabled me to find the problem quicker. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would enable me to find error quicker.  It would also allow me to go back
+	to a previous version quicker.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    One of the pros is you can decide if the change is meaningful enough for a 
+	commit.  One of the cons of automatically doing commits is you don't have a logical
+	saving point.  This would make finding a change you made more difficult.  
+	Another Con is the number of commits increases also makeing it harder to find a
+	particular change.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    If there are multiple file that are interrelated then it would be adventagous
+	to track the changes together like git does.  Google Docs is setup to follow
+	each file separately because you would not normally have interrelated files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log gives you a list of all commits made and a brief description.  git diff
+	highlights the differences between commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you know that if anything breaks you can go back as many commits as 
+	you need to find and fix the error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git to save some code that I work on (SQL queries/Reports/Python Scripts/etc...).
