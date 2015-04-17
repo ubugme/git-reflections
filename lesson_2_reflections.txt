@@ -15,11 +15,22 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+	
+	When you want to make experimental changes or perhaps change the language of your project (big changes.).
+	Branches allow you to make these changes and not affect the master branch.
+	They can also be merged later if the changes workout.
+	
 How do the diagrams help you visualize the branch structure?
+
+	They help you think of how commits relate to the braches they are on and how 
+	branches relate to each other.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+	
+	It merges two branches of the same code.  Combining into the master branch.
+	The reason it is represented in the graph the way it is, is to show the merging
+	of the branches.
+	
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
